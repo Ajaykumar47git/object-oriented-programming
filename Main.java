@@ -17,13 +17,14 @@ public class Main {
         product.address = "Hyderabad";
         product.stock = true;*/
 
-        System.out.println("Product id : "+product.id);
+        /*System.out.println("Product id : "+product.id);
         System.out.println("Product name : " +product.name);
         System.out.println("Product Discount Percentage : "+product.discountPercentage);
         System.out.println("MRP  : " +product.maxRetailPrice);
         System.out.println("Producet location : "+product.address);
         System.out.println("Product stock : "+product.stock);
-        System.out.println( "  ");
+        System.out.println( "  ");*/
+        product.displayProductDetalis();
 
         Product product2 ;
         product2 =new Product(2,"dell",5.7F,150000,"Beeramguda",false);
@@ -36,19 +37,22 @@ public class Main {
         product2.address = "Beeramguda";
         product2.stock = false;*/
 
-        System.out.println("Product id : "+product2.id);
+       /* System.out.println("Product id : "+product2.id);
         System.out.println("Product name : " +product2.name);
         System.out.println("Product Discount Percentage : "+product2.discountPercentage);
         System.out.println("MRP  : " +product2.maxRetailPrice);
         System.out.println("Producet location : "+product2.address);
         System.out.println("Product stock : "+product2.stock);
-        System.out.println(" ");
+        System.out.println(" ");*/
+        product2.displayProductDetalis();
 
 
         //order object
         Order order;
-        order= new Order(001,130000,"10/01/26","Cash On Delivery","beeramguda,10-15,ameenpur,sangareddy",true );
-
+        order= new Order(001,130000,"10/01/26","Cash On Delivery","beeramguda,10-15,ameenpur,sangareddy",true,100000 );
+        //Orders details
+        Order.calculateTheFinalPayableAmount(10000);
+        Order.updateOrderStatus();
 
         /*
         id = 001;
@@ -66,22 +70,32 @@ public class Main {
         System.out.println("Order payment method :"+order.paymentMethod);
         System.out.println("Order address :"+order.address);
         System.out.println("Order "+order.orderDeliveryStatus);
+        System.out.println("Final Amount"+order.finalAmount);
 
 
 
 
         Customer customer;
-        customer= new Customer(8,"Ajay","Kukatpally",502032,10F,true ) ;
-        System.out.println(" ");
+        customer= new Customer(8,"Ajay","Kukatpally",502032,10F,true,9441993721L ) ;
+
+        //methods executing
+        customer.displayCustomerDetails();
+        customer.updatingCustomerAddress("kukatpally");
+        customer.checkCustomerAccountStatus(true);
+        customer.makeCustomerAccountInActive(  false);
+        customer.checkCustomerNumber(9441993721L);
+        /*System.out.println(" ");
         System.out.println("showing customer details ");
         System.out.println("customer id : "+customer.id);
         System.out.println("customer name : "+customer.name);
         System.out.println("customer address : "+customer.address);
         System.out.println("customer pincode : "+customer.pincode);
         System.out.println("customer Discount percentage : "+customer.discountpercentage);
-        System.out.println("customer status : "+customer.isOnline);
+        System.out.println("customer status : "+customer.isOnline);*/
+
+        //Orders details
+       // Order.calculateTheFinalPayableAmount(100000);
 
 
-    }
 
-}
+}}

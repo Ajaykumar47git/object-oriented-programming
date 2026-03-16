@@ -29,6 +29,18 @@ Product(int id ,String name,float discountPercentage,int maxRetailPrice,String a
         this.address =address;
         this.stock=stock;
 
+
+
+    }
+
+    //method
+    void displayProductDetalis(){
+        System.out.println("Product id : "+ id);
+        System.out.println("Product name : " +name);
+        System.out.println("Product Discount Percentage : "+discountPercentage);
+        System.out.println("MRP  : " +maxRetailPrice);
+        System.out.println("Producet location : "+address);
+        System.out.println("Product stock : "+stock);
 }
 
 
