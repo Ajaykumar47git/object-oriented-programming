@@ -63,7 +63,5 @@ Customer(int Cid,String name,String address,int pincode,float discountpercentage
         System.out.println("checcking Customer details " +phnNumber);
         return phnNumber;
 
-
-
     }
 }
