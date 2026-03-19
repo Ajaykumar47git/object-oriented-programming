@@ -5,5 +5,19 @@ public class Payment {
     String paymetmode;
     String paymentDate;
     String paymentMethod;
-    boolean status;
+    boolean paymentstatus;
+
+
+
+    //constructer
+    Payment(){
+        paymentid = 81;
+        paymetmode= "cash";
+        paymentDate= "10-01-2005";
+        paymentMethod= "UPI";
+        paymentstatus =true ;
+    }
+
 }
+
+

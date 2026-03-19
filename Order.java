@@ -11,6 +11,7 @@ public class Order {
     String address;
     boolean orderDeliveryStatus;
     int finalAmount;
+    String updateOrderStatus;
 
 
     //constructor
@@ -22,9 +23,11 @@ public class Order {
         address = "beeramguda,10-15,ameenpur,sangareddy";
         orderDeliveryStatus = true;
         finalAmount= 10000;
+        updateOrderStatus ="PLACED, SHIPPED, DELIVERED, CANCELLED";
+
     }
 
-    Order (int id, int maxRetailPeice, String deliveryDate, String paymentMethod, String address, boolean orderDeliveryStatus,int finalAmount ) {
+    Order (int id, int maxRetailPeice, String deliveryDate, String paymentMethod, String address, boolean orderDeliveryStatus,int finalAmount, String updateOrderStatus ) {
         this.id = id;
         this.maxRetailPeice = maxRetailPeice;
         this.deliveryDate = deliveryDate;
@@ -32,6 +35,7 @@ public class Order {
         this.address = address;
         this.orderDeliveryStatus = orderDeliveryStatus;
         this.finalAmount = finalAmount;
+        this.orderDeliveryStatus = orderDeliveryStatus;
 
     }
 
@@ -42,8 +46,8 @@ public class Order {
         return (10000);
         }
 
-        void updateOrderStatus (String "PLACED, SHIPPED, DELIVERED, CANCELLED"){
-            System.out.println("");
+        void updateOrderStatus (String orderDeliveryStatus ){
+            System.out.println("the status of the order is : "+orderDeliveryStatus);
 
         }
 

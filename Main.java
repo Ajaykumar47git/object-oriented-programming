@@ -49,10 +49,10 @@ public class Main {
 
         //order object
         Order order;
-        order= new Order(001,130000,"10/01/26","Cash On Delivery","beeramguda,10-15,ameenpur,sangareddy",true,100000 );
+        order= new Order( 001,  130000, "10/01/26","Cash On Delivery","beeramguda,10-15,ameenpur,sangareddy",  true, 100000,"PLACED, SHIPPED, DELIVERED, CANCELLED" );
         //Orders details
         Order.calculateTheFinalPayableAmount(10000);
-        Order.updateOrderStatus();
+        Order.updateOrderStatus("PLACED, SHIPPED, DELIVERED, CANCELLED");
 
         /*
         id = 001;
@@ -71,6 +71,7 @@ public class Main {
         System.out.println("Order address :"+order.address);
         System.out.println("Order "+order.orderDeliveryStatus);
         System.out.println("Final Amount"+order.finalAmount);
+        System.out.println("order status update "+updateOrderStatus);
 
 
 
