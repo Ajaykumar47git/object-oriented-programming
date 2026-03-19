@@ -46,14 +46,14 @@ public class Main {
         System.out.println(" ");*/
         product2.displayProductDetalis();
 
-
-        //order object
-        Order order;
-        order= new Order( 001,  130000, "10/01/26","Cash On Delivery","beeramguda,10-15,ameenpur,sangareddy",  true, 100000,"PLACED, SHIPPED, DELIVERED, CANCELLED" );
-        //Orders details
-        Order.calculateTheFinalPayableAmount(10000);
-        Order.updateOrderStatus("PLACED, SHIPPED, DELIVERED, CANCELLED");
-
+        {
+            //order object
+            Order order;
+            order = new Order(001, 130000, "10/01/26", "Cash On Delivery", "beeramguda,10-15,ameenpur,sangareddy", true, 100000, "PLACED, SHIPPED, DELIVERED, CANCELLED");
+            //Orders details
+            Order.calculateTheFinalPayableAmount(10000);
+            Order.updateOrderStatus("PLACED, SHIPPED, DELIVERED, CANCELLED");
+        }
         /*
         id = 001;
         maxRetailPeice = 120000;
@@ -95,8 +95,9 @@ public class Main {
         System.out.println("customer status : "+customer.isOnline);*/
 
         //Orders details
-       // Order.calculateTheFinalPayableAmount(100000);
-
-
+        // Order.calculateTheFinalPayableAmount(100000);
+        //payment
+      //  Payment  payment;
+       // payment = new Payment(81,"cash",);
 
 }}

@@ -18,6 +18,16 @@ public class Payment {
         paymentstatus =true ;
     }
 
+
+    Payment(int Cid,String name,String address,int pincode,float discountpercentage,boolean isOnline,long phnNumber) {
+        this.paymentid = paymentid;
+        this.paymetmode = paymetmode;
+        this.paymentDate = paymentDate;
+        this.paymentMethod = paymentMethod;
+        this.paymentstatus = paymentstatus;
+
+
+    }
 }
 
 
