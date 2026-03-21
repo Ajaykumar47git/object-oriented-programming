@@ -46,14 +46,21 @@ public class Main {
         System.out.println(" ");*/
         product2.displayProductDetalis();
 
+
+        Payment  payment;
+        payment = new Payment(81,"cash","10-01-2005","UPI");
+
+
+
         {
             //order object
             Order order;
             order = new Order(001, 130000, "10/01/26", "Cash On Delivery", "beeramguda,10-15,ameenpur,sangareddy", true, 100000, "PLACED, SHIPPED, DELIVERED, CANCELLED");
             //Orders details
-            Order.calculateTheFinalPayableAmount(10000);
-            Order.updateOrderStatus("PLACED, SHIPPED, DELIVERED, CANCELLED");
-        }
+            order.calculateTheFinalPayableAmount(10000);
+            order.updateOrderStatus("PLACED, SHIPPED, DELIVERED, CANCELLED");
+            order.calculateTheFinalPayableAmount(100000);
+
         /*
         id = 001;
         maxRetailPeice = 120000;
@@ -62,29 +69,27 @@ public class Main {
         address = "beeramguda,10-15,ameenpur,sangareddy";
         orderDeliveryStatus = true;*/
 
-        // initialize OrderDetail
-        System.out.println("showing Order details ");
-        System.out.println("Order id :"+order.id);
-        System.out.println("Order MRP :"+order.maxRetailPeice);
-        System.out.println("Oredr Delivery Date :"+order.deliveryDate);
-        System.out.println("Order payment method :"+order.paymentMethod);
-        System.out.println("Order address :"+order.address);
-        System.out.println("Order "+order.orderDeliveryStatus);
-        System.out.println("Final Amount"+order.finalAmount);
-        System.out.println("order status update "+updateOrderStatus);
+            // initialize OrderDetail
+            System.out.println("showing Order details ");
+            System.out.println("Order id :" + order.id);
+            System.out.println("Order MRP :" + order.maxRetailPeice);
+            System.out.println("Oredr Delivery Date :" + order.deliveryDate);
+            System.out.println("Order payment method :" + order.paymentMethod);
+            System.out.println("Order address :" + order.address);
+            System.out.println("Order " + order.orderDeliveryStatus);
+            System.out.println("Final Amount" + order.finalAmount);
+            System.out.println("order status update " + order.updateOrderStatus);
 
 
+            Customer customer;
+            customer = new Customer(8, "Ajay", "Kukatpally", 502032, 10F, true, 9441993721L);
 
-
-        Customer customer;
-        customer= new Customer(8,"Ajay","Kukatpally",502032,10F,true,9441993721L ) ;
-
-        //methods executing
-        customer.displayCustomerDetails();
-        customer.updatingCustomerAddress("kukatpally");
-        customer.checkCustomerAccountStatus(true);
-        customer.makeCustomerAccountInActive(  false);
-        customer.checkCustomerNumber(9441993721L);
+            //methods executing
+            customer.displayCustomerDetails();
+            customer.updatingCustomerAddress("kukatpally");
+            customer.checkCustomerAccountStatus(true);
+            customer.makeCustomerAccountInActive(false);
+            customer.checkCustomerNumber(9441993721L);
         /*System.out.println(" ");
         System.out.println("showing customer details ");
         System.out.println("customer id : "+customer.id);
@@ -94,10 +99,16 @@ public class Main {
         System.out.println("customer Discount percentage : "+customer.discountpercentage);
         System.out.println("customer status : "+customer.isOnline);*/
 
-        //Orders details
-        // Order.calculateTheFinalPayableAmount(100000);
-        //payment
-      //  Payment  payment;
-       // payment = new Payment(81,"cash",);
 
-}}
+
+
+        }
+        //Orders details
+        //payment
+
+      // Payment  payment;
+       //payment = new Payment(81,"cash","10-01-2005","UPI");
+
+
+        }
+    }
