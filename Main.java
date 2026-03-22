@@ -48,7 +48,7 @@ public class Main {
 
 
         Payment  payment;
-        payment = new Payment(81,"cash","10-01-2005","UPI");
+        payment =new Payment(81,"cash","10-01-2005","UPI");
 
 
 
