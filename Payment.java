@@ -19,7 +19,7 @@ public class Payment {
     }
 
 
-    Payment (int id,String name,String address,int pincode,float discountpercentage,boolean isOnline,long phnNumber) {
+    Payment (int id,String mode,String Date,String Method ,boolean Status) {
         this.id =  id;
         this. mode = mode;
         this. Date =  Date;
