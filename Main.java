@@ -49,7 +49,7 @@ public class Main {
 
         Payment  payment1;
         payment1 =new Payment(81,"cash ","10-01-2005","UPI",true);
-
+        payment1.displaypaymentdetails();
 
 
         {
