@@ -37,7 +37,10 @@ public class Payment {
             System.out.println("Customer Status " +  Method);
             System.out.println("Customer phnNumber"+ Status);
         }
-
+        boolean statusOfTheOrder(){
+            System.out.println("order Status"+Status);
+        return Status
+        }
 }
 
 
