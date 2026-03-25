@@ -2,6 +2,7 @@ package com.java.oop;
 
 public class Customer {
     //state
+    //
     int id;
     String name;
     String address;

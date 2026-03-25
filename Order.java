@@ -3,6 +3,7 @@ package com.java.oop;
 public class Order {
 
     //state
+    //
     //id,MRP,deliveryDate,paymentMethod,address,orderDeliveryStatus,final amount
     int id;
     int maxRetailPeice;
