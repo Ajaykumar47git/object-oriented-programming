@@ -42,6 +42,11 @@ public class Payment {
         return Status;
         }
 
+        void PaymentmethodDetails(){
+            System.out.println("paymentmode "+Method);
+
+        }
+
 
 
 
