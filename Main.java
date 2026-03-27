@@ -51,6 +51,9 @@ public class Main {
         payment1 =new Payment(81,"cash ","10-01-2005","UPI",true);
         payment1.displaypaymentdetails();
         payment1.statusOfTheOrder();
+        payment1.verifyPaymenytStatus();
+
+      //  System.out.println("payment Status"+payment1.verifyPaymenytStatus());
 
 
         {

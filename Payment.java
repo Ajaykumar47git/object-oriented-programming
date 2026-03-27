@@ -47,7 +47,11 @@ public class Payment {
 
         }
 
-
+   // Design a method to verify that the payment amount matches the order amount.
+        boolean verifyPaymenytStatus (){
+            System.out.println("Paymenyt Status"+Status);
+            return Status;
+    }
 
 
 
