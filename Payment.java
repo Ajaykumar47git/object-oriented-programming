@@ -52,11 +52,11 @@ public class Payment {
             System.out.println("Paymenyt Status"+Status);
             return Status;
     }
-
-
-
-
-        //paymeny
+    //Design a method that processes payment based on payment mode (UPI, CARD, NET BANKING).
+        String   processPaymentOnPaymentMode (){
+            System.out.println(" process Payment On PaymentMode " + mode);
+            return mode;
+        }
 
 }
 
