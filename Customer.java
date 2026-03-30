@@ -55,9 +55,9 @@ Customer(int Cid,String name,String address,int pincode,float discountpercentage
     return isOnline;
     }
 
- //   boolean makeCustomerAccountInActive (boolean isOnline){
-     //   System.out.println("making customer in active :"+isOnline);
-       // return isOnline;
+     boolean makeCustomerAccountInActive (boolean isOnline){
+        System.out.println("making customer in active :"+isOnline);
+       return isOnline;
     }
     //Design a method to validate whether the customer’s contact number is valid
     long checkCustomerNumber (long phnNumber){
