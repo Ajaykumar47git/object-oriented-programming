@@ -53,9 +53,9 @@ public class Payment {
             return Status;
     }
     //Design a method that processes payment based on payment mode (UPI, CARD, NET BANKING).
-        //String   processPaymentOnPaymentMode (){
-          //  System.out.println(" process Payment On PaymentMode " + mode);
-            //return mode;
+        String   processPaymentOnPaymentMode (){
+           System.out.println(" process Payment On PaymentMode " + mode);
+            return mode;
         }
 
 }
