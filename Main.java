@@ -94,7 +94,7 @@ public class Main {
             customer.checkCustomerAccountStatus(true);
             customer.makeCustomerAccountInActive(false);
             customer.checkCustomerNumber(9441993721L);
-        /*System.out.println(" ");
+        System.out.println(" ");
         System.out.println("showing customer details ");
         System.out.println("customer id : "+customer.id);
         System.out.println("customer name : "+customer.name);
