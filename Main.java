@@ -110,8 +110,8 @@ public class Main {
         //Orders details
         //payment
 
-      // Payment  payment;
-       //payment = new Payment(81,"cash","10-01-2005","UPI");
+       Payment  payment;
+       payment = new Payment(81,"cash","10-01-2005","UPI");
 
 
         }
