@@ -51,7 +51,7 @@ public class Main {
         payment1 =new Payment(81,"cash ","10-01-2005","UPI",true);
         payment1.displaypaymentdetails();
         payment1.statusOfTheOrder();
-        payment1.processPaymentOnPaymentMode();
+       // payment1.processPaymentOnPaymentMode();
 
       //  System.out.println("payment Status"+payment1.verifyPaymenytStatus());
 
@@ -110,8 +110,9 @@ public class Main {
         //Orders details
         //payment
 
-       Payment  payment;
-       payment = new Payment(81,"cash","10-01-2005","UPI");
+      // Payment  payment;
+       //
+        //payment = new Payment(81,"cash","10-01-2005","UPI");
 
 
         }
