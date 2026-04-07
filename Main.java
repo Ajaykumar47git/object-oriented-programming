@@ -85,7 +85,7 @@ public class Main {
             System.out.println("order status update " + order.updateOrderStatus);
 
 
-          //  Customer customer;
+            Customer customer;
             customer = new Customer(8, "Ajay", "Kukatpally", 502032, 10F, true, 9441993721L);
 
             //methods executing
