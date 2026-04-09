@@ -10,12 +10,13 @@ public class Main {
 
 
         //initialize details
-         product.id =1;
+         /*product.id =1;
         product.name = "Lenovo";
         product.discountPercentage =4.5F;
         product.maxRetailPrice = 120000;
         product.address = "Hyderabad";
-        product.stock = true;
+        product.stock = true;*/
+        
 
         /*System.out.println("Product id : "+product.id);
         System.out.println("Product name : " +product.name);
