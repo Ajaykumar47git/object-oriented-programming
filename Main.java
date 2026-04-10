@@ -16,7 +16,7 @@ public class Main {
         product.maxRetailPrice = 120000;
         product.address = "Hyderabad";
         product.stock = true;*/
-        
+
 
         /*System.out.println("Product id : "+product.id);
         System.out.println("Product name : " +product.name);
