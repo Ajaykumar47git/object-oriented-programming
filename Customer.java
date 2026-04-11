@@ -21,14 +21,13 @@ public class Customer {
         isOnline=true;
         phnNumber =9441993721L;
     }
-Customer(int Cid,String name,String address,int pincode,float discountpercentage,boolean isOnline,long phnNumber) {
-    /*this.id = id;
+Customer(int Cid,String name,String address,int pincode,float discountpercentage,boolean isOnline,long phnNumber) {this.id = id;
     this.name = name;
     this.address = address;
     this.pincode = pincode;
     this.discountpercentage = discountpercentage;
     this.isOnline = isOnline;
-    this.phnNumber= phnNumber;*/
+    this.phnNumber= phnNumber;
 
 }
     // method decleration
