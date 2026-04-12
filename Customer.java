@@ -3,14 +3,14 @@ package com.java.oop;
 public class Customer {
     //state
     //
-    int id;
+    /*int id;
     String name;
     String address;
     int pincode;
     float discountpercentage;
     boolean isOnline;
     long phnNumber;
-
+*/
     //constructer
     Customer(){
         id = 8;
