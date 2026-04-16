@@ -13,13 +13,13 @@ public class Customer {
 
     //constructer
     Customer(){
-       /* id = 8;
+        id = 8;
         name= "Ajay";
         address= "kukatpally";
         pincode= 502032;
         discountpercentage =10F ;
         isOnline=true;
-        phnNumber =9441993721L;*/
+        phnNumber =9441993721L;
     }
 Customer(int Cid,String name,String address,int pincode,float discountpercentage,boolean isOnline,long phnNumber) {this.id = id;
     this.name = name;
