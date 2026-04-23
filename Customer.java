@@ -13,7 +13,7 @@ public class Customer {
 
     //constructer
     Customer(){
-      /* id = 8;
+        id = 8;
         name= "Ajay";
         address= "kukatpally";
         pincode= 502032;
