@@ -44,5 +44,16 @@ Product(int id ,String name,float discountPercentage,int maxRetailPrice,String a
 }
 
 
+//display product details with out return type
+    void displayProductsByCompony (String companyName){
+        System.out.println("products by company name"+ companyName );
+    }
 
+
+
+    //without arguments but with return type
+    //total count of products
+    int getTotalProducts (){
+        return 10;
+    }
 }

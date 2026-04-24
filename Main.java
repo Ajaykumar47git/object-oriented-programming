@@ -45,16 +45,22 @@ public class Main {
         System.out.println("Producet location : "+product2.address);
         System.out.println("Product stock : "+product2.stock);
         System.out.println(" ");*/
-        product2.displayProductDetalis();
+       // product2.displayProductDetalis();
 
 
         Payment  payment1;
         payment1 =new Payment(81,"cash ","10-01-2005","UPI",true);
         payment1.displaypaymentdetails();
         payment1.statusOfTheOrder();
-       payment1.processPaymentOnPaymentMode();
+        payment1.processPaymentOnPaymentMode();
+        product2.displayProductDetalis();
+        System.out.println(" ----" );
+        product.displayProductsByCompony("dell");
+        int productCount = product.getTotalProducts();
+        System.out.println("product count "+productCount);
 
-      //  System.out.println("payment Status"+payment1.verifyPaymenytStatus());
+
+        //  System.out.println("payment Status"+payment1.verifyPaymenytStatus());
 
 
         {
