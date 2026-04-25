@@ -1,7 +1,7 @@
 package com.java.oop;
 
 public class Payment {
-    int id;
+   // int id;
     String mode;
     String Date;
     String Method;
