@@ -11,8 +11,8 @@ public class Payment {
 
     //constructer
     Payment(){
-        id = 81;
-        mode= "cash";
+       // id = 81;
+        //mode= "cash";
         Date= "10-01-2005";
         Method= "UPI";
         Status =true ;
