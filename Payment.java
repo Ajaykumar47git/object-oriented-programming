@@ -27,6 +27,7 @@ public class Payment {
 
     }
         //methaod decleration
+
         void displaypaymentdetails (){
             System.out.println();
             System.out.println("Payment Details");

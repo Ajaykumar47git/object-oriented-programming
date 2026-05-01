@@ -5,7 +5,7 @@ package com.java.oop;
 public class Main {
     public static void main(String[] args) {
         //product object
-        Product product ;
+        //Product product ;
         product=new Product(1,"Lenova",4.5F,120000,"hyderabad",true);
 
 
