@@ -5,17 +5,17 @@ package com.java.oop;
 public class Main {
     public static void main(String[] args) {
         //product object
-        //Product product ;
+        Product product ;
         product=new Product(1,"Lenova",4.5F,120000,"hyderabad",true);
 
 
         //initialize details
-         /*product.id =1;
+        product.id =1;
         product.name = "Lenovo";
         product.discountPercentage =4.5F;
         product.maxRetailPrice = 120000;
         product.address = "Hyderabad";
-        product.stock = true;*/
+        product.stock = true;
 
 
         /*System.out.println("Product id : "+product.id);
