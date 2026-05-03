@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         //product object
         Product product ;
-        product=new Product(1,"Lenova",4.5F,120000,"hyderabad",true);
+        //product=new Product(1,"Lenova",4.5F,120000,"hyderabad",true);
 
 
         //initialize details
