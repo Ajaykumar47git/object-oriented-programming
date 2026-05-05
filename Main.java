@@ -10,7 +10,7 @@ public class Main {
 
 
         //initialize details
-        product.id =1;
+        //product.id =1;
         product.name = "Lenovo";
         product.discountPercentage =4.5F;
         product.maxRetailPrice = 120000;
