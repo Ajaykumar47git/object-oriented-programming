@@ -9,7 +9,7 @@ public class Main {
         product=new Product(1,"Lenova",4.5F,120000,"hyderabad",true);
 
 
-        //initialize details
+        initialize details
         product.id =1;
         product.name = "Lenovo";
         product.discountPercentage =4.5F;
